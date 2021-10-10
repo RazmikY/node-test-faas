@@ -1,0 +1,18 @@
+{
+  "name": "node-test-faas",
+  "version": "1.0.0",
+  "description": "testing for using in FaaS application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Razmik Yeghoyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
